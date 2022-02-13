@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.login{
+    margin-bottom: 4%;
+    border:none;
+    box-shadow: 0 0 2px gray ;
+    width:200px;
+}
+.login.select:hover{
+    box-shadow: 0 0 6px #06b0f9 ;
+}
+.login:focus{
+    outline: none;
+    box-shadow: 0 0 6px #06b0f9 ;
+}
+
+.login_submit{
+    background-color: rgb(238,77,45);
+    color:white;
+
+    box-shadow: none;
+    width: 200px;
+    padding: 1.5%;
+    border: none;
+    border-radius:4px;
+}
+.login_submit:hover{
+    background-color: rgb(238,77,45);
+
+}
+.modal-body{
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.button button{
+    height:50px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    width: 90%;
+}
+.button button:hover{
+   box-shadow: 0 0 4px rgb(4,144,244);
+}
+.fa{
+    padding-left: 2%;
+}
+.modal-content{
+    width: 50% !important;
+    margin: 0 auto;
+}
+.modal-header{
+    color: #6c757d;
+}
+.modal-body{
+    background-color: white;
+    margin-top: 5px;
+}
+.btn-close{
+    color:white !important;
+
+}
+button{
+    box-shadow: border-box;
+}
+.fa{
+    margin-top: 1.5%;
+}
+.fa.fa-facebook{
+    color:rgb(32, 32, 241); 
+    
+}
+.fa.fa-google{
+    color:rgb(14, 180, 180)
+}
+.fa.fa-envelope-o{
+    color: #0194d3;
+}
+.loginText.three{
+    margin: 1em 0;
+}

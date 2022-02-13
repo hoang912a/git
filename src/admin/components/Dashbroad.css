@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerDashbroad{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar{
+    flex-grow: 0.6;
+    border-radius: 10px;
+}
+.bodySibar{
+    color:white;
+    flex-grow: 3;
+    border-radius: 10px;
+}
+/* grid */

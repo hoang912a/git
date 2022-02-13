@@ -1,0 +1,102 @@
+.component_login{
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.component_login .title_login
+{ 
+    border-radius: 5px;
+    text-align: center;
+    width: 600px;
+    padding: 1%;
+    background-color: white;
+}
+.component_login .button_one{
+    height:50px;
+    background-color: rgb(223, 45, 98);
+    color:white;
+    border: none;
+}
+.component_login .loginText.three{
+    border: none;
+}
+.component_login select{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    
+}
+.component_login #select_one{
+    border: 1px  solid #efefef;
+    border-bottom: none;
+    margin-bottom: 2px;
+}
+.component_login #select_one:focus{
+    box-shadow: 0 0 4px rgb(4, 144, 244);
+}
+.component_login #select_one:hover{
+    box-shadow: 0 0 4px rgb(4, 144, 244);
+}
+.component_login #select_one{
+    margin-bottom: 4px;
+    border-radius: 5px;
+    
+}
+.component_login .put_login{
+
+    border-radius: 5px ;
+}
+.component_login .put_login input{
+    border-radius: 8px;
+
+
+}
+.component_login .input_one{
+    height: 50px;
+    border: none;
+}
+.component_login input
+{
+    width:100%
+}
+
+.component_login button{
+    width:100%;
+    border:1px solid gray;
+    border-radius: 10px !important;
+}
+.component_login button:hover{
+    box-shadow: 0 0 5px rgb(4, 144, 244);
+}
+.component_login .button button{
+    margin-bottom: 10px;
+    height:50px
+    
+}
+.component_login .loginText.one{
+    border-bottom:1px solid #dcdada;
+    padding-bottom:10px !important
+}
+.component_login .loginText.three{
+    margin-top: 10px;
+}
+
+.component_login h2{
+    float: left;
+}
+.fa{
+    margin-left: 1%;
+    float:left;
+    box-sizing: border-box;
+    
+}
+.fa.fa-facebook-official{
+    background-color: blue;
+    color: white;
+}

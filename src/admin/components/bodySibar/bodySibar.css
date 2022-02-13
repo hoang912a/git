@@ -1,0 +1,30 @@
+.bodySibar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     grid-template-areas: 
+     'q w e e'
+     'a s e e'
+    'z z x x'
+    'z z x x'  
+     ;
+     grid-gap:20px;
+     background-color: rgb(250 248 248);
+    padding:20px;
+
+}
+.bodySibar>div{
+    padding: 10px;
+    color: gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+   
+}
+.Container_BodySibar_TotalSale{grid-area:q}
+.Container_BodySibar_DailyVisits{grid-area:w}
+.Container_BodySibar_Income{grid-area:a}
+.Container_BodySibar_TotalOrder{grid-area:s}
+.Container_BodySibar_Chart{grid-area:  e}
+.Container_BodySibar_Customer{grid-area:z}
+.Container_BodySibar_LatestOrders{grid-area:x}
